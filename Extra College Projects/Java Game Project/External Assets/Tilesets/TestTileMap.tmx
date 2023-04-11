@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="19">
+ <tileset firstgid="1" source="Master Tileset.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="10">
+  <data encoding="csv">
+69,3221225606,3221225606,3221225606,3221225606,3221225606,70,70,3221225606,71,
+101,105,138,73,137,106,74,106,105,103,
+101,73,106,138,137,137,76,2684354636,73,103,
+101,138,74,73,105,73,1610612812,3221225548,73,103,
+101,105,137,106,74,106,137,73,105,103,
+101,137,74,138,106,73,106,73,137,103,
+101,73,137,137,73,106,106,106,74,103,
+101,73,137,138,105,138,137,137,73,103,
+101,73,138,73,138,105,138,73,138,103,
+133,134,3221225542,134,134,134,134,134,134,135
+</data>
+ </layer>
+ <objectgroup id="5" name="Obstacles">
+  <object id="14" x="0" y="0" width="160" height="11"/>
+  <object id="15" x="148" y="10.75" width="12" height="149.5"/>
+  <object id="16" x="0" y="148" width="148" height="12"/>
+  <object id="17" x="0" y="11" width="11" height="137"/>
+  <object id="18" x="100.25" y="35.5" width="23" height="24"/>
+ </objectgroup>
+</map>

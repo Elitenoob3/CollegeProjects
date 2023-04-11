@@ -1,0 +1,134 @@
+﻿body {
+    /* Cerinta 1 */
+    background-color: #008080;
+    margin: 0px
+}
+
+h1 {
+    /* Contribuie catre Cerintele 2,8 */
+    text-align: left;
+    font-weight: bold;
+    /* Contribuie catre Cerinta 9 */
+    font-family: Microsoft YaHei, Arial;
+    font-size: 80px;
+}
+
+h2 {
+    /* Contribuie catre Cerintele 2,8 */
+    text-align: left;
+    font-weight: bold;
+    /* Contribuie catre Cerinta 9 */
+    font-family: Microsoft YaHei, Arial;
+    font-size: 40px;
+}
+
+h3 {
+    /* Contribuie catre Cerintele 2,8 */
+    text-align: left;
+    font-weight: bold;
+    /* Contribuie catre Cerinta 9 */
+    font-family: Microsoft YaHei, Arial;
+    font-size: 30px;
+    margin: -30px 0px 0px 40px;
+}
+
+p {
+    /* Contribuie catre Cerinta 8 */
+    font-size: 20px;
+    /* Contribuie catre Cerinta 9 */
+    font-family: Calibri, Arial;
+    margin: 0px
+}
+
+.top_button {
+    width: 12%;
+    margin: 0px;
+    /* border: solid red 1px; */
+    display: inline-block;
+    background-color: whitesmoke;
+    /* Cerinta 45 */
+}
+
+#header {
+    padding: 20px 30px;
+}
+
+/* Contribuie catre Cerinta 42 */
+a div.top_button {
+    /* Cerinta 44 */
+    text-align: center;
+    font-size: 25px;
+    /* Cerinta 43 + Contribuie catre Cerinta 9 */
+    font-family: Calibri, Arial;
+    text-decoration: none;
+    /* box-shadow: 0px 0px inset #808080; */
+    padding: 20px 10px;
+    color: black;
+}
+
+/* Contribuie catre Cerinta 42 si Cerinta 41*/
+a div.top_button:hover {
+    /* Cerinta 25 */
+    background-color: #2D9595;
+    color: white;
+}
+
+/* Contribuie catre Cerinta 42 si Cerinta 41*/
+#footer {
+    position: relative;
+    bottom: 0;
+    background-color: #004D4D;
+    padding: 50px 0px 30px 0px;
+    width: 100%;
+    color: white;
+}
+
+main{
+    color: white;
+}
+
+.bot_button {
+    width: 10%;
+    position: relative;
+    top: 0px;
+    margin: 0px;
+    display: inline-block;
+    background-color: #004D4D;
+}
+
+a div.bot_button {
+    text-align: center;
+    font-size: 30px;
+    font-family: Calibri, Arial;
+    text-decoration: none;
+    padding: 40px 30px 40px 30px;
+    margin-top: -50px;
+    color: white;
+}
+
+a div.bot_button:hover {
+    /* Cerinta 25 */
+    background-color: #00CCCC;
+    color: black;
+}
+
+.down_scroll {
+    background-image: url(Images/Icon_DOWN.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 0px;
+}
+
+.up_scroll {
+    background-image: url(Images/Icon_UP.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 0px;
+}
+
+a {
+    /*text-decoration: none;*/
+    color: white;
+}

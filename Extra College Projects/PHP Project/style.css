@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: lightslategray;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    margin: 0px 20px;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+a:hover, input:hover {
+    filter: opacity(0.8);
+}
+
+
+
+#topBanner, #bottomBanner {
+    background-color: #34404D;
+    padding: 15px 50px;
+    align-content: center;
+}
+
+#topBanner {
+    justify-content: space-between;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+#bottomBanner {
+    justify-content: center;
+}
+
+#globalContainer {
+    justify-content: space-between;
+}
+
+#leftMenu {
+    width: 150px;
+    background-color: #232B33;
+    float: left;
+
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+
+#mainContainer {
+    min-height: 700px;
+    background-color: #232B33;
+    margin: 0px 50px;
+    flex-grow: 1;
+}
+
+#searchBox, #searchButton {
+    border-radius: 25px;
+    background-color: ghostwhite;
+    border: 5px solid ghostwhite;
+    font: bold;
+}
+
+#searchButton {
+    margin: 0px 15px;
+}
+
+#searchButton:hover {
+     filter: opacity(0.8);
+}
+
+.center, .centerP{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Field, .Button {
+    border-radius: 25px;
+    background-color: ghostwhite;
+    border: 5px solid ghostwhite;
+    font: bold;
+    margin: 10px 0px;
+}
+
+.scheckbox {
+    border-radius: 25px;
+    border: 5px solid ghostwhite;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font: bold 15px Calibri;
+}
+
+label {
+    margin: 5px;
+}
+
+h1 {
+    font: bold 40px Calibri;
+    color: ghostwhite;
+}
+
+h3 {
+    font: bold 25px Calibri;
+    color: ghostwhite;
+    margin: 20px 0px;
+}
+
+.category {
+    display: flex;
+    background-color: #A69FB3;
+    flex-grow: 1;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 20px 20px;
+    margin-bottom: 30px;
+}
+
+.addCart {
+    padding: 20px;
+    justify-content: center;
+    background-color: #34404D;
+    border-radius: 25px;
+    font: bold 25px Calibri;
+    color: ghostwhite;
+    border: 0px;
+}
+
+.VertCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.categoryText {
+    font: bold 25px Calibri;
+    color: ghostwhite;
+}
+
+.textItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    text-decoration: none;
+    font: bold 20px Calibri;
+    color: ghostwhite;
+    background-color: #A69FB3;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 30px 10px;
+}
+
+.boxItem {
+    display: flex;
+    text-decoration: none;
+    font: bold 18px Calibri;
+    color: ghostwhite;
+    padding: 30px 20px;
+    background-color: #34404D;
+}
+
+.gridDisplay {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    margin: 10px 10px;
+    justify-content: space-evenly;
+}
+
+.winebottle {
+    max-height: 250px;
+    max-width: 250px;
+    aspect-ratio: initial;
+    border-radius: 25px;
+    border: 5px solid white;
+    margin: 10px ;
+}
+
+.welcm {
+    max-width: 700px;
+    aspect-ratio: initial;
+    margin: 20px;
+}
+
+#LoginArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table, th, td {
+    border: 5px solid;
+    color: ghostwhite;
+    margin: 0px;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}

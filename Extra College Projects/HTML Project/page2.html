@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="ro" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        ul,ol{
+            font-size:20px;
+        }
+        img {
+            margin: 15px 0px;
+            border: solid white 5px;
+            border-radius: 4px;
+            height: 250px;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="Images/Icon.png" type="image/png" />
+    <link rel="stylesheet" href="Principal.css" /> <!-- Cerinta 38-->
+    <title> Proiect Dezvoltare Web </title>
+</head>
+<body>
+    <div style=" font-size: 0px; background-color: whitesmoke">
+        <a href="#footer" style="float:left">
+            <div class="top_button down_scroll" id="header">
+                <!-- Cerinta 20 -->
+                <br />
+            </div>
+        </a>
+        <div class="top_button"></div>
+        <a href="index.html">
+            <div class="top_button">
+                Acasa
+            </div>
+        </a>
+        <div class="top_button"></div>
+        <a href="page1.html">
+            <div class="top_button">
+                Curent Alternativ
+            </div>
+        </a>
+        <a href="page2.html">
+            <div class="top_button">
+                Alte Inventii
+            </div>
+        </a>
+        <a href="page3.html">
+            <div class="top_button">
+                Materiale
+            </div>
+        </a>
+        <a href="page4.html">
+            <div class="top_button">
+                Feedback
+            </div>
+        </a>
+        <div class="top_button"></div>
+    </div>
+    <hr color="black" style="font-size: 0px" /> <!-- Cerinta 12 -->
+
+    <main style="margin: 120px 240px">
+        <h2> Alte inventii ale lui Tesla</h2>
+        <div style="margin:30px"></div>
+        <ol style="list-style-position: outside;"> <!-- Cerinta 18 -->
+            <li> Lista inventiilor si cateva aplicatii ale lor: <br />
+                <ul style="list-style-position: inside;">
+                    <li>
+                        Lampa Neon
+                    </li>
+                    <li>
+                        Bobina Tesla
+                        <ul style="list-style-type: circle">
+                            <li> Aplicatie in masini de sudura </li>
+                            <li> Utilizare in efecte speciale </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Turbina Tesla
+                        <ul style="list-style-type: circle">
+                            <li> Este folosita in uzine petroliere </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Generatorul Hidroelectric
+                        <ul style="list-style-type: circle">
+                            <li> Este folosit in hidrocentrale </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Motorul pe inductie
+                        <ul style="list-style-type: circle">
+                            <li> Este folosit in electrocasnice </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li> Imagini cu diversele inventii: <br/>
+                <ol type="I" start="2" style="list-style-position: outside;">
+                    <li>
+                        Bobina (apasati pe bobina pentru mai multe informatii) <br/>
+                        <img src="Images/Coil.jpg" usemap="#bobina"/>
+                        <map name="bobina">
+                            <area shape="rect" coords="125,0,200,250" alt="Coil"
+                             href="https://ro.wikipedia.org/wiki/Bobin%C4%83_Tesla" /> <!-- Cerinta 23 -->
+                        </map>
+                    </li>
+                    <li>
+                        Turbina (apasati sectiunea circulara a turbinei pentru mai multe informatii)<br />
+                        <img src="Images/Turbine.jpg" usemap="#turbina" />
+                        <map name="turbina">
+                            <area shape="circle" coords="260,130,100" alt="Coil"
+                                  href="https://en.wikipedia.org/wiki/Tesla_turbine" /> <!-- Cerinta 23 -->
+                        </map>
+                    </li>
+                    <li>
+                        Generatorul <br />
+                        <img src="Images/Generator.jpg" />
+                    </li>
+                    <li>
+                        Motorul <br/>
+                        <img src="Images/Motor.jpg"/>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </main>
+
+
+    <div id="footer" align="center">
+        <!-- Cerinta 4 -->
+        <a href="#header" style="float:left; margin-right: -100px">
+            <div class="bot_button up_scroll"> <br /> </div> <!-- Cerinta 20 -->
+        </a>
+
+        <p>
+            Acest website a fost realizat de Fratila Cristian Andrei <br /> <!-- Cerinta 3 -->
+            <!-- Cerinta 21 -->
+            <a href="https://ro.wikipedia.org/wiki/Nikola_Tesla">
+                Datele au fost alese de pe acest site
+            </a>
+            <br />
+            Email:
+            <!-- Cerinta 21 -->
+            <a href="cristianandrei.fratila@ulbsibiu.ro">
+                cristianandrei.fratila@ulbsibiu.ro
+            </a> <br />
+            <!-- Cerinta 21 -->
+            <a href="Proiect Dezvoltare de aplicații WEB.pdf">
+                PDF Cerinte
+            </a>
+        </p>
+
+        <div style="margin: -20px 30px 0px -200px; float: right; ">
+            <!-- Cerinta 4 -->
+            <p style="font-size: 10px">
+                Copyright <sup>TM</sup> <sub> Free Redistribution</sub> <!-- Cerinta 10 -->
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
